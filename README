@@ -1,0 +1,29 @@
+Vaduva Gabriela-Bianca
+315CA
+
+                Poli TicTacToe
+
+
+    Eu am inceput prin a verifica validitatea indecsilor cititi si afisarea erorilor corespunzatoare.
+    
+    Am folosit numeroase functii:
+- pentru validarea indecsilor cititi
+- pentru cautarea de indecsi valizi
+- pentru cauatrea unui castigator
+- pentru afisarea macroboard-ului
+
+    Am intampinat probleme cand cautam castigatorul, deoarece il
+cautam in tot board-ul si primeam timeout sau segfault, asa ca am
+vrut sa retin ultimele coordonate gasite pentru a cauta un castigator doar in miniboard-ul din care faceau parte.
+
+    Apoi, am intampinat probleme cand voiam ca noile coordonate sa
+ramana salvate, chiar daca le dadeam ca parametrii, dupa care mi-am dat seama ca ar fi trebuit sa le declar pointer, dar nu eram sigura
+de abilitatile mele de a folosi pointeri, asa ca am folosit doi vectori de cate un element ca sa fiu sigura ca e corect.
+
+    De asemenea, am avut cateva probleme si cu eroarea "FULL BOARD",
+pentru ca nu afisam cand trebuie si nu afisam eroarea dinaintea acestei erori, dar am remediat situatia.
+
+
+
+
+    
